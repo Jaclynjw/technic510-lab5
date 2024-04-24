@@ -81,7 +81,6 @@ if submit_button:
             st.session_state['display_text_dialogue'] += f"User: {user_input}\n"
             st.session_state['display_text_dialogue'] += f"Reply: {result}\n"
         
-
         st.session_state.user_input = ""
         # Rerun the app to clear the input box and update the display text
         st.rerun() 
